@@ -1,0 +1,6 @@
+{
+  "name": "GAP — André GAP | Apresentação Interativa de Reunião",
+  "description": "Apresentação web interativa em formato 16:9 para André GAP conduzir a reunião ao vivo com os compradores do livro 'Você Nasceu Livre! Morrerá Escravo?'.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

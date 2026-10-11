@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #07131F;
+    --color-navy-card: #0A1D2E;
+    --color-gold: #C5A46D;
+    --color-gold-light: #E3CB9D;
+    --color-paper: #F6F3EC;
+    --color-muted: #AEB9C3;
+  }
+
+  body {
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+    color: #F6F3EC;
+    background-color: #07131F;
+    min-height: 100vh;
+  }
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+}
+
+/* Maritime Rhumb Lines & Grids */
+.bg-rhumb-lines {
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(197, 164, 109, 0.08) 1px, transparent 1px),
+    linear-gradient(45deg, rgba(197, 164, 109, 0.03) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(197, 164, 109, 0.03) 25%, transparent 25%);
+  background-size: 32px 32px, 64px 64px, 64px 64px;
+}
+
+/* Custom scrollbar for presenter notes */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07131F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #29485F;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A46D;
+}
